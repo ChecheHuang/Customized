@@ -1,0 +1,91 @@
+
+.offcanvasbtn{
+	border-radius: 5px;
+	padding: 10px 15px;
+	border: 0;
+	background: #f5f5f5;
+}
+.fa-bars {
+	color: rgb(137, 137, 139);
+}
+.navbox {
+	height: 90px;
+}
+.myNavbar {
+	background: #f5f5f5;
+	height: 90px;
+	margin-bottom: 50px;
+}
+.text-warning{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: red;
+	top: -7px;
+	right: -7px;
+
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #7b9c85;
+}
+.navbar-light .navbar-nav .nav-link:hover .nav-link:active{
+	color: #b1ddbe;
+}
+.navbar-light .navbar-nav .nav-link .nav-icon {
+	color: #4c534e;
+}
+.navbar-light .navbar-nav .nav-link .nav-icon:hover {
+	color: #b5b8b6;
+}
+
+.nav-icon {
+	color: #4c534e;
+}
+.nav-icon:hover {
+	color: #b5b8b6;
+}
+@media screen and (max-width: 992px) {
+	.lgnav {
+		display: none;
+	}
+}
+@media screen and (max-width: 576px) {
+	.navbar-brand img {
+		margin-top: 10px;
+		margin-left: 10px;
+		width: 160px;
+		height: 70px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.offcanvasbtn {
+		display: none;
+	}
+}
+
+button:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+.farmerIcon{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.dropdown-item.active, .dropdown-item:active {
+	background-color: #b4d1be;
+}
+.memberIcon{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.imageFit{
+	width: 100%;
+	height: 50px;
+	object-fit: cover;
+}
